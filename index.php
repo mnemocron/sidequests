@@ -19,8 +19,25 @@
 			$len_act = sizeof($jsondata["activities"]);
 			$len_loc = sizeof($jsondata["locations"]);
 			$len_qst = sizeof($jsondata["sidequests"]);
+			$add_loc = rand(0,1000) > 500; // 50% chance to generate location
+			$add_qst = rand(0,1000) > 200; // 20% chance to generate additional sidequest
 
-			$blork = $ofs_act + rand(0,$len_act-1) . $ofs_loc + rand(0,$len_loc-1) . $ofs_qst + rand(0,$len_qst-1);
+			$sel_act = rand(0,$len_act-1);
+			if($sel_act == 27){  // this is the special case to take the next promt litterally
+				$add_loc = 0;
+				$add_qst = 0;
+			}
+			$sel_loc = 7; // default empty
+			if($add_loc){
+				$sel_loc = rand(0,$len_loc-1);
+			}
+			$sel_qst = 6; // default empty
+			if($add_qst){
+				$sel_qst = rand(0,$len_qst-1);
+			}
+
+			$blork = $ofs_act + $sel_act . $ofs_loc + $sel_loc . $ofs_qst + $sel_qst;
+
 			header("Location: ./?blork=" . $blork);
 			exit();
 	    }
