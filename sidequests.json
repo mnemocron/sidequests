@@ -1,5 +1,5 @@
 {
-	"info" : "DO NOT DELETE OR REORDER LINES! THIS WILL MESS WITH THE URL",
+    "info" : "DO NOT DELETE OR REORDER LINES! THIS WILL MESS WITH THE URL",
     "activities": ["visit an art gallery",
         "visit a technology museum",
         "attend a barista course",
@@ -22,7 +22,7 @@
         "build a minecraft dungeon",
         "go thrift shopping",
         "design a t-shirt for each other",
-        "watch an opera",
+        "go to the opera",
         "go to the next local indie artist concert",
         "go to a wine tasting",
         "go to a beer tasting",
@@ -56,7 +56,20 @@
         "use up the film in your analog camera",
         "watch the ISS fly by",
         "get up early to watch the sun rise",
-        "host a potluck dinner"
+        "host a potluck dinner",
+	"rent a fast car",
+	"go on a night drive",
+	"have a champagne breakfast",
+	"get a manicure",
+	"get a tattoo",
+	"ride a longboard into the sunset",
+	"watch a live musical",
+	"visit a comic book shop",
+	"stay at an extraordinary airbnb",
+	"go (indoor) skydiving",
+	"take a flight lesson",
+	"go people watching",
+	"create a list of the top 10 bars in your town and then drink a beer at each one"
     ],
     "locations": [
         "in the mountains",
@@ -68,15 +81,18 @@
         "in my living room",
         "",
         "at a pub",
-        "in a forest"
+        "in a forest",
+	"at a library",
+	"at a beach",
+	"in a bar"
     ],
     "sidequests": [
         "while wearing funny hats",
         "while pretending to be secret spies",
         "with binoculars",
-        "wearing a costume",
-        "wearing matching outfits",
-        "dressed up elegantly",
+        "while wearing a costume",
+        "while wearing matching outfits",
+        "while dressed up elegantly",
         ""
     ],
     "unpublished": [
