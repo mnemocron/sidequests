@@ -19,13 +19,13 @@
 			$len_act = sizeof($jsondata["activities"]);
 			$len_loc = sizeof($jsondata["locations"]);
 			$len_qst = sizeof($jsondata["sidequests"]);
-			$add_loc = rand(0,1000) > 500; // 50% chance to generate location
-			$add_qst = rand(0,1000) > 200; // 20% chance to generate additional sidequest
+			$add_loc = rand(0,1000) > 250; // 25% chance to generate location
+			$add_qst = rand(0,1000) > 100; // 10% chance to generate additional sidequest
 
 			$sel_act = rand(0,$len_act-1);
 			if($sel_act == 27){  // this is the special case to take the next promt litterally
-				$add_loc = 0;
-				$add_qst = 0;
+				$add_loc = 7;
+				$add_qst = 6;
 			}
 			$sel_loc = 7; // default empty
 			if($add_loc){
@@ -140,6 +140,7 @@
 <div id="famous">
 	made by <a href="https://simonmartin.ch" target="_blank">Simon</a>.
 </div>
-
+<!-- 100% privacy-first analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </body>
 </html>
