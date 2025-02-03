@@ -23,7 +23,7 @@
 			$add_qst = rand(0,1000) > 100; // 10% chance to generate additional sidequest
 
 			$sel_act = rand(0,$len_act-1);
-			if($sel_act == 27){  // this is the special case to take the next promt litterally
+			if($sel_act == 28){  // this is the special case to take the next promt litterally
 				$add_loc = 7;
 				$add_qst = 6;
 			}
