@@ -90,7 +90,16 @@
 	"play strip Uno",
 	"go skinny dipping",
 	"backe a \"hear-me-out\" cake",
-	"go on a road trip"
+	"go on a road trip",
+		"build & paint a warhammer mini",
+		"go to a kinky rave",
+		"sign up for a marathon",
+		"sign up for a Hyrox",
+		"host a power point party to tell your friends what you do in your job",
+		"go for a joyride",
+		"go indoor surfing",
+		"vibe code a browser game",
+		"touch some grass"
     ],
     "locations": [
         "in the mountains",
@@ -103,6 +112,7 @@
         "",
         "at a pub",
         "in a forest",
+		"outside in the sun"
 	"at a library",
 	"at a beach",
 	"in a bar"
@@ -114,9 +124,11 @@
         "while wearing a costume",
         "while wearing matching outfits",
         "while dressed up elegantly",
-        ""
+        "",
+		"while touching grass"
     ],
     "unpublished": [
         "while counting people who have unusual accessories"
     ]
 }
+
