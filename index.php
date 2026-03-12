@@ -138,7 +138,7 @@
 	<br>
 </div>-->
 <div id="famous">
-	made by <a href="https://simonmartin.ch" target="_blank">Simon</a>.
+	this website generates random suggestions for sidequest activities. With a 25% chance for a special location and 10% chance for extra weirdness. made by <a href="https://simonmartin.ch" target="_blank">Simon</a> - inspired by <a href="https://whatthefuckshouldimakefordinner.com" target="_blank">whatthefuckshouldimakefordinner.com</a>.
 </div>
 <!-- 100% privacy-first analytics -->
 <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
